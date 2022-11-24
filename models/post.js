@@ -23,7 +23,4 @@ const postSchema=new mongoose.Schema({
     ref:"User"
     } 
 })
-
-
-
 mongoose.model("Post",postSchema)
